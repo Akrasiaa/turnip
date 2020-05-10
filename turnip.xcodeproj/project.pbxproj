@@ -3,17 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E59A08DD24683CA500540BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08DC24683CA500540BEE /* AppDelegate.swift */; };
 		E59A08DF24683CA500540BEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08DE24683CA500540BEE /* SceneDelegate.swift */; };
-		E59A08E124683CA500540BEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08E024683CA500540BEE /* ContentView.swift */; };
+		E59A08E124683CA500540BEE /* PriceContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08E024683CA500540BEE /* PriceContentView.swift */; };
 		E59A08E324683CA900540BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59A08E224683CA900540BEE /* Assets.xcassets */; };
 		E59A08E624683CA900540BEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59A08E524683CA900540BEE /* Preview Assets.xcassets */; };
 		E59A08E924683CA900540BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59A08E724683CA900540BEE /* LaunchScreen.storyboard */; };
 		E59A08F424683CA900540BEE /* turnipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08F324683CA900540BEE /* turnipTests.swift */; };
+		E59A090024683D6500540BEE /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = E59A08FF24683D6500540BEE /* SwiftUICharts */; };
+		E59A09162468544100540BEE /* PriceOddsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A09152468544000540BEE /* PriceOddsModel.swift */; };
+		E59A0918246856ED00540BEE /* PriceDailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A0917246856ED00540BEE /* PriceDailyModel.swift */; };
+		E59A091A246857F900540BEE /* UserDefault+Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A0919246857F900540BEE /* UserDefault+Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +34,7 @@
 		E59A08D924683CA500540BEE /* turnip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turnip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59A08DC24683CA500540BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59A08DE24683CA500540BEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E59A08E024683CA500540BEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E59A08E024683CA500540BEE /* PriceContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceContentView.swift; sourceTree = "<group>"; };
 		E59A08E224683CA900540BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E59A08E524683CA900540BEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E59A08E824683CA900540BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,9 @@
 		E59A08EF24683CA900540BEE /* turnipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = turnipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59A08F324683CA900540BEE /* turnipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipTests.swift; sourceTree = "<group>"; };
 		E59A08F524683CA900540BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59A09152468544000540BEE /* PriceOddsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceOddsModel.swift; sourceTree = "<group>"; };
+		E59A0917246856ED00540BEE /* PriceDailyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDailyModel.swift; sourceTree = "<group>"; };
+		E59A0919246857F900540BEE /* UserDefault+Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Price.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59A090024683D6500540BEE /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +87,9 @@
 		E59A08DB24683CA500540BEE /* turnip */ = {
 			isa = PBXGroup;
 			children = (
+				E59A0914246853D700540BEE /* Prices */,
 				E59A08DC24683CA500540BEE /* AppDelegate.swift */,
 				E59A08DE24683CA500540BEE /* SceneDelegate.swift */,
-				E59A08E024683CA500540BEE /* ContentView.swift */,
 				E59A08E224683CA900540BEE /* Assets.xcassets */,
 				E59A08E724683CA900540BEE /* LaunchScreen.storyboard */,
 				E59A08EA24683CA900540BEE /* Info.plist */,
@@ -107,6 +115,17 @@
 			path = turnipTests;
 			sourceTree = "<group>";
 		};
+		E59A0914246853D700540BEE /* Prices */ = {
+			isa = PBXGroup;
+			children = (
+				E59A08E024683CA500540BEE /* PriceContentView.swift */,
+				E59A09152468544000540BEE /* PriceOddsModel.swift */,
+				E59A0917246856ED00540BEE /* PriceDailyModel.swift */,
+				E59A0919246857F900540BEE /* UserDefault+Price.swift */,
+			);
+			path = Prices;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +142,9 @@
 			dependencies = (
 			);
 			name = turnip;
+			packageProductDependencies = (
+				E59A08FF24683D6500540BEE /* SwiftUICharts */,
+			);
 			productName = turnip;
 			productReference = E59A08D924683CA500540BEE /* turnip.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +195,9 @@
 				Base,
 			);
 			mainGroup = E59A08D024683CA500540BEE;
+			packageReferences = (
+				E59A08FE24683D6500540BEE /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = E59A08DA24683CA500540BEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -208,9 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59A091A246857F900540BEE /* UserDefault+Price.swift in Sources */,
 				E59A08DD24683CA500540BEE /* AppDelegate.swift in Sources */,
 				E59A08DF24683CA500540BEE /* SceneDelegate.swift in Sources */,
-				E59A08E124683CA500540BEE /* ContentView.swift in Sources */,
+				E59A08E124683CA500540BEE /* PriceContentView.swift in Sources */,
+				E59A09162468544100540BEE /* PriceOddsModel.swift in Sources */,
+				E59A0918246856ED00540BEE /* PriceDailyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +501,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E59A08FE24683D6500540BEE /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E59A08FF24683D6500540BEE /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E59A08FE24683D6500540BEE /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E59A08D124683CA500540BEE /* Project object */;
 }
