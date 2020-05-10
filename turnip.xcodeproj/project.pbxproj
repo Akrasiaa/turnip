@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E59A08DD24683CA500540BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08DC24683CA500540BEE /* AppDelegate.swift */; };
+		E59A08DF24683CA500540BEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08DE24683CA500540BEE /* SceneDelegate.swift */; };
+		E59A08E124683CA500540BEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08E024683CA500540BEE /* ContentView.swift */; };
+		E59A08E324683CA900540BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59A08E224683CA900540BEE /* Assets.xcassets */; };
+		E59A08E624683CA900540BEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59A08E524683CA900540BEE /* Preview Assets.xcassets */; };
+		E59A08E924683CA900540BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59A08E724683CA900540BEE /* LaunchScreen.storyboard */; };
+		E59A08F424683CA900540BEE /* turnipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A08F324683CA900540BEE /* turnipTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E59A08F024683CA900540BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E59A08D124683CA500540BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59A08D824683CA500540BEE;
+			remoteInfo = turnip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E59A08D924683CA500540BEE /* turnip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turnip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59A08DC24683CA500540BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E59A08DE24683CA500540BEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E59A08E024683CA500540BEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E59A08E224683CA900540BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E59A08E524683CA900540BEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E59A08E824683CA900540BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E59A08EA24683CA900540BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59A08EF24683CA900540BEE /* turnipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = turnipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59A08F324683CA900540BEE /* turnipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipTests.swift; sourceTree = "<group>"; };
+		E59A08F524683CA900540BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E59A08D624683CA500540BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59A08EC24683CA900540BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E59A08D024683CA500540BEE = {
+			isa = PBXGroup;
+			children = (
+				E59A08DB24683CA500540BEE /* turnip */,
+				E59A08F224683CA900540BEE /* turnipTests */,
+				E59A08DA24683CA500540BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E59A08DA24683CA500540BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E59A08D924683CA500540BEE /* turnip.app */,
+				E59A08EF24683CA900540BEE /* turnipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E59A08DB24683CA500540BEE /* turnip */ = {
+			isa = PBXGroup;
+			children = (
+				E59A08DC24683CA500540BEE /* AppDelegate.swift */,
+				E59A08DE24683CA500540BEE /* SceneDelegate.swift */,
+				E59A08E024683CA500540BEE /* ContentView.swift */,
+				E59A08E224683CA900540BEE /* Assets.xcassets */,
+				E59A08E724683CA900540BEE /* LaunchScreen.storyboard */,
+				E59A08EA24683CA900540BEE /* Info.plist */,
+				E59A08E424683CA900540BEE /* Preview Content */,
+			);
+			path = turnip;
+			sourceTree = "<group>";
+		};
+		E59A08E424683CA900540BEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E59A08E524683CA900540BEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E59A08F224683CA900540BEE /* turnipTests */ = {
+			isa = PBXGroup;
+			children = (
+				E59A08F324683CA900540BEE /* turnipTests.swift */,
+				E59A08F524683CA900540BEE /* Info.plist */,
+			);
+			path = turnipTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E59A08D824683CA500540BEE /* turnip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59A08F824683CA900540BEE /* Build configuration list for PBXNativeTarget "turnip" */;
+			buildPhases = (
+				E59A08D524683CA500540BEE /* Sources */,
+				E59A08D624683CA500540BEE /* Frameworks */,
+				E59A08D724683CA500540BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = turnip;
+			productName = turnip;
+			productReference = E59A08D924683CA500540BEE /* turnip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E59A08EE24683CA900540BEE /* turnipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59A08FB24683CA900540BEE /* Build configuration list for PBXNativeTarget "turnipTests" */;
+			buildPhases = (
+				E59A08EB24683CA900540BEE /* Sources */,
+				E59A08EC24683CA900540BEE /* Frameworks */,
+				E59A08ED24683CA900540BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59A08F124683CA900540BEE /* PBXTargetDependency */,
+			);
+			name = turnipTests;
+			productName = turnipTests;
+			productReference = E59A08EF24683CA900540BEE /* turnipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E59A08D124683CA500540BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Florent Taine";
+				TargetAttributes = {
+					E59A08D824683CA500540BEE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E59A08EE24683CA900540BEE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E59A08D824683CA500540BEE;
+					};
+				};
+			};
+			buildConfigurationList = E59A08D424683CA500540BEE /* Build configuration list for PBXProject "turnip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E59A08D024683CA500540BEE;
+			productRefGroup = E59A08DA24683CA500540BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E59A08D824683CA500540BEE /* turnip */,
+				E59A08EE24683CA900540BEE /* turnipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E59A08D724683CA500540BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59A08E924683CA900540BEE /* LaunchScreen.storyboard in Resources */,
+				E59A08E624683CA900540BEE /* Preview Assets.xcassets in Resources */,
+				E59A08E324683CA900540BEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59A08ED24683CA900540BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E59A08D524683CA500540BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59A08DD24683CA500540BEE /* AppDelegate.swift in Sources */,
+				E59A08DF24683CA500540BEE /* SceneDelegate.swift in Sources */,
+				E59A08E124683CA500540BEE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59A08EB24683CA900540BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59A08F424683CA900540BEE /* turnipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E59A08F124683CA900540BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59A08D824683CA500540BEE /* turnip */;
+			targetProxy = E59A08F024683CA900540BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E59A08E724683CA900540BEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E59A08E824683CA900540BEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E59A08F624683CA900540BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E59A08F724683CA900540BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E59A08F924683CA900540BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"turnip/Preview Content\"";
+				DEVELOPMENT_TEAM = WS75G3M4NN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = turnip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumgame.turnip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E59A08FA24683CA900540BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"turnip/Preview Content\"";
+				DEVELOPMENT_TEAM = WS75G3M4NN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = turnip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumgame.turnip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E59A08FC24683CA900540BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS75G3M4NN;
+				INFOPLIST_FILE = turnipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumgame.turnipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turnip.app/turnip";
+			};
+			name = Debug;
+		};
+		E59A08FD24683CA900540BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS75G3M4NN;
+				INFOPLIST_FILE = turnipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumgame.turnipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turnip.app/turnip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E59A08D424683CA500540BEE /* Build configuration list for PBXProject "turnip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59A08F624683CA900540BEE /* Debug */,
+				E59A08F724683CA900540BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59A08F824683CA900540BEE /* Build configuration list for PBXNativeTarget "turnip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59A08F924683CA900540BEE /* Debug */,
+				E59A08FA24683CA900540BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59A08FB24683CA900540BEE /* Build configuration list for PBXNativeTarget "turnipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59A08FC24683CA900540BEE /* Debug */,
+				E59A08FD24683CA900540BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E59A08D124683CA500540BEE /* Project object */;
+}
